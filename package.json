@@ -7,12 +7,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benjaminnh/workbuddy-subagent-bridge.git"
+    "url": "git+https://github.com/BenjaminNH/workbuddy-subagent-bridge.git"
   },
   "bugs": {
-    "url": "https://github.com/benjaminnh/workbuddy-subagent-bridge/issues"
+    "url": "https://github.com/BenjaminNH/workbuddy-subagent-bridge/issues"
   },
-  "homepage": "https://github.com/benjaminnh/workbuddy-subagent-bridge#readme",
+  "homepage": "https://github.com/BenjaminNH/workbuddy-subagent-bridge#readme",
   "type": "module",
   "bin": {
     "workbuddy-subagent": "dist/cli.js"
