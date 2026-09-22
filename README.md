@@ -48,7 +48,7 @@ Agent 安装流程不会自动发布 npm 包、创建 GitHub Release 或修改�
 
 ### 从 npm 安装
 
-正式发布后，可通过以下命令安装：
+当前已发布版本可通过以下命令安装：
 
 ~~~powershell
 npm install -g workbuddy-subagent-bridge
@@ -195,7 +195,7 @@ npm publish --dry-run
 
 ## 发布流程
 
-版本发布采用 Git tag 触发 GitHub Actions。推荐流程为：
+`0.1.0` 已作为初始版本发布。后续版本采用 Git tag 触发 GitHub Actions，流程为：
 
 1. 更新 package.json 版本号。
 2. 提交代码并创建对应的 v*.*.* tag。
