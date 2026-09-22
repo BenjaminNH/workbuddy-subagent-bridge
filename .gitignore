@@ -1,0 +1,7 @@
+# Local planning notes and temporary design records
+docs/_local/*
+
+# Dependencies and generated package output
+node_modules/
+dist/
+*.tgz

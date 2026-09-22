@@ -1,0 +1,45 @@
+{
+  "name": "workbuddy-subagent-bridge",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A local MCP bridge for current WorkBuddy CodeBuddy ACP stdio sessions.",
+  "author": "BenjaminNH",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminnh/workbuddy-subagent-bridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/benjaminnh/workbuddy-subagent-bridge/issues"
+  },
+  "homepage": "https://github.com/benjaminnh/workbuddy-subagent-bridge#readme",
+  "type": "module",
+  "bin": {
+    "workbuddy-subagent": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepack": "npm run build",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "doctor": "node dist/cli.js doctor",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
