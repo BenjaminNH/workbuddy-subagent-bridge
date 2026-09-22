@@ -5,3 +5,4 @@ docs/_local/*
 node_modules/
 dist/
 *.tgz
+.npm-smoke/
