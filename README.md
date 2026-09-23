@@ -193,18 +193,6 @@ npm publish --dry-run
 
 本机真实验证报告保存在 docs/_local/，该目录默认不进入公开提交。
 
-## 发布流程
-
-`0.1.0` 已作为初始版本发布。后续版本采用 Git tag 触发 GitHub Actions，流程为：
-
-1. 更新 package.json 版本号。
-2. 提交代码并创建对应的 v*.*.* tag。
-3. GitHub Actions 执行测试、类型检查和构建。
-4. 验证通过后发布 npm 包。
-5. npm 发布成功后创建 GitHub Release。
-
-npm Trusted Publishing 使用 GitHub Actions 的 OIDC 身份，不需要在仓库中保存长期有效的 npm token。正式发布前，需要在 npm 和 GitHub 中配置对应的包名、仓库和 workflow。
-
 ## 问题反馈
 
 提交问题时，请附带以下信息：
