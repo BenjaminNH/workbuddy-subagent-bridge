@@ -41,9 +41,11 @@ Agent 安装流程不会自动发布 npm 包、创建 GitHub Release 或修改�
 ~~~text
 请帮我安装并配置 WorkBuddy Subagent Bridge。
 
-请先阅读并严格执行本项目的 docs/agent-install.md。该文件包含完整的安装步骤、执行边界、权限要求、验收条件和故障处理规则。
+项目仓库：https://github.com/BenjaminNH/workbuddy-subagent-bridge
 
-如果当前工作目录中找不到该文件，请先向我索要项目仓库链接或文件内容。完成后请按照指引返回安装和验证报告；不要自行扩大操作范围。
+请先打开上述仓库并阅读其中的 docs/agent-install.md，然后严格执行该指引。该文件包含完整的安装步骤、执行边界、权限要求、验收条件和故障处理规则。
+
+完成后请按照指引返回安装和验证报告；不要自行扩大操作范围。
 ~~~
 
 ### 从 npm 安装
